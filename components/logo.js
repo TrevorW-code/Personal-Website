@@ -18,13 +18,13 @@ const LogoBox = styled.span`
 `
 
 const Logo = () => {
-    const footPrintImg = `/images/footprint${useColorModeValue('','-dark')}.png`
+    const logoImage = `/images/footprint${useColorModeValue('','-dark')}.png`
 
     return (
         <Link href="/" legacyBehavior>
             <a>
-                <LogoBox>
-                    <Image src={footPrintImg} width={20} height={20} alt="logo"/>
+                <LogoBox> {/* Issue with formatting, drops a few pixels */}
+                    <Image src={logoImage} width={20} height={20} alt="logo"/>
                     <Text 
                     color={useColorModeValue('gray.800', 'whiteAlpha.900')}
                     fontFamily='M PLUS Rounded 1c'

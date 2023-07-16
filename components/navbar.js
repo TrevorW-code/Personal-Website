@@ -15,7 +15,7 @@ import {
     IconButton,
     useColorModeValue
 } from '@chakra-ui/react'
-import { HumburgerIcon} from '@chakra-ui/icons'
+import { HamburgerIcon, HumburgerIcon} from '@chakra-ui/icons'
 
 const LinkItem = ({href, path, children}) => {
     const active = path === href
@@ -56,7 +56,7 @@ const Navbar = props => {
                 <Heading as="h1" size="lg" letterSpacing={'tighter'}>
                     <Logo/>
                 </Heading>
-            </Flex>
+            
 
             <Stack
             direction={{base: 'column', md: 'row'}}
@@ -65,11 +65,26 @@ const Navbar = props => {
             alignItems="center"
             flexGrow={ 1}
             mt={{base: 4, nmd: 0}}
+            spacing={15}
             >
                 <LinkItem href='/works' path={path}>
                 Works
                 </LinkItem>
+                <LinkItem href='/posts' path={path}>
+                Posts
+                </LinkItem>
             </Stack>
+            </Flex>
+            <Box flex={1} align="right">
+                <Box ml={2} display={{base: 'inline-block', md: 'none'}}>
+                    <Menu>
+                        <MenuButton as={IconButton} icon={<HamburgerIcon/>} variant={"outline"} aria-aria-label='Options'></MenuButton>
+                    </Menu>
+                    {/* <MenuList>
+
+                    </MenuList> */}
+                </Box>
+            </Box>
         </Container>
         </Box>
     )
