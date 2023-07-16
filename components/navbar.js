@@ -79,10 +79,12 @@ const Navbar = props => {
                 <Box ml={2} display={{base: 'inline-block', md: 'none'}}>
                     <Menu>
                         <MenuButton as={IconButton} icon={<HamburgerIcon/>} variant={"outline"} aria-aria-label='Options'></MenuButton>
+                        <MenuList>
+                            <MenuItem as={NextLink} href="/">About</MenuItem>
+                            <MenuItem as={NextLink} href="/works">Works</MenuItem>
+                            <MenuItem as={NextLink} href="/posts">Posts</MenuItem>
+                        </MenuList>
                     </Menu>
-                    {/* <MenuList>
-
-                    </MenuList> */}
                 </Box>
             </Box>
         </Container>
