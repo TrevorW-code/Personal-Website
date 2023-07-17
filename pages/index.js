@@ -61,10 +61,16 @@ const Page = () => {
                 <BioYear>2000</BioYear>Born in Richmond, Virginia.
             </BioSection>
             <BioSection>
-                <BioYear>2023</BioYear>Graudated University of Colorado Boulder with a BS in Information Science
+                <BioYear>2021</BioYear>First Internship at Blueprint, Boulder
+            </BioSection> 
+            <BioSection>
+                <BioYear>2022</BioYear>Started Working part-time at Rippey.AI
             </BioSection> 
             <BioSection>
                 <BioYear>2023</BioYear>Graudated University of Colorado Boulder with a BS in Information Science
+            </BioSection> 
+            <BioSection>
+                <BioYear>2023 - Present</BioYear>Head of Data Science at Rippey.AI
             </BioSection> 
         </Section>
     </Container>
