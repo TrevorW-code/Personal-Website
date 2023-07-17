@@ -1,11 +1,16 @@
-import { Container, Box, Heading, Image, useColorModeValue } from '@chakra-ui/react'
+import { Container, Box, Heading, Image, useColorModeValue, Link, Button } from '@chakra-ui/react'
+import NextLink from 'next/link'
 import Section from '../components/section'
+import Paragraph from '../components/paragraph'
+import { ChevronRightIcon } from '@chakra-ui/icons'
+import { BioSection , BioYear  } from '../components/bio'
+
 
 const Page = () => {
     return (
     <Container>
         <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500','whiteAlpha.200')} p={3} mb={6} align="center">
-            Hello, I&apos;m a data scientist based in Colorado!
+            Hi! I&apos;m a data scientist based in Colorado!
         </Box>
         <Box display={{mx:'flex'}}>
             <Box flexGrow={1}>
@@ -35,7 +40,32 @@ const Page = () => {
         <Heading as="h3" variant="section-title"> 
             Work
         </Heading>
-            <p>Paragraph</p>
+            <Paragraph>
+                Trevor is a full-stack developer and data scientist based out of Denver, Colorado. He is primarily focused on reducing bias in AI, as well as automating logistic processes. Learn more about his work experience by checking out his {' '}
+                <Link href='https://www.linkedin.com/in/trevorward001/'>Linkedin</Link>
+                .
+            </Paragraph>
+        <Box align="center" my={4}>
+            <NextLink href="/works">
+                <Button rightIcon={<ChevronRightIcon/>} colorScheme="teal">
+                    My Portfolio
+                </Button>
+            </NextLink>
+        </Box>
+        </Section>
+        <Section delay={0.2}>
+            <Heading as="h3" variant= "section-title">
+              Bio  
+            </Heading>
+            <BioSection>
+                <BioYear>2000</BioYear>Born in Richmond, Virginia.
+            </BioSection>
+            <BioSection>
+                <BioYear>2023</BioYear>Graudated University of Colorado Boulder with a BS in Information Science
+            </BioSection> 
+            <BioSection>
+                <BioYear>2023</BioYear>Graudated University of Colorado Boulder with a BS in Information Science
+            </BioSection> 
         </Section>
     </Container>
     )
