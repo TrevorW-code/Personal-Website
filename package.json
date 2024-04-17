@@ -1,0 +1,17 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "NextJS was annoying to complete so I did not finish the project.",
+  "main": "index.js",
+  "scripts": {
+    "css:watch": "npx tailwindcss -i ./tailwind.css -o ./_site/css/style.css --watch",
+    "dev": "npx eleventy --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "github:11ty/eleventy",
+    "tailwindcss": "^3.4.3"
+  }
+}
