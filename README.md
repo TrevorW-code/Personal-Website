@@ -1,5 +1,9 @@
 # Personal-Website
 
-NextJS was annoying to complete so I did not finish the project.
+Code for my website at <a href="trevorward.me">trevorward.me</a>
 
-Static sites for the win!
+### To Run Repo
+
+`npm install`
+
+`npm run dev`
