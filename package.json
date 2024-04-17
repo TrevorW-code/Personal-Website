@@ -1,7 +1,7 @@
 {
   "name": "personal-website",
-  "version": "1.0.0",
-  "description": "NextJS was annoying to complete so I did not finish the project.",
+  "version": "1.0.1",
+  "description": "Trevor Ward's Portfolio Website",
   "main": "index.js",
   "scripts": {
     "serve": "npx eleventy --serve",
@@ -9,7 +9,7 @@
     "dev": "npm-run-all --parallel serve css:watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Trevor Ward",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "github:11ty/eleventy",
