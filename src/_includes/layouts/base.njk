@@ -6,7 +6,9 @@
     <title>Trev's Website</title>
     <link rel="stylesheet" href="/css/style.css"><link>
 </head>
-<body>
-    <h1 class="text-4xl font-bold text-blue-600">Hi! Welcome to my Website!</h1>
+<body class="min-h-screen flex flex-col">
+    {% include 'partials/_header.html' %}
+    {{ content | safe }}
+    {% include 'partials/_footer.html' %}
 </body>
 </html>
