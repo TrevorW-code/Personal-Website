@@ -1,8 +1,15 @@
 ---
 layout: 'layouts/post.njk'
-title: Woah! 
-subtitle: First Post! 
+title: Hi!
+subtitle: A quick post about me
 tags: post
 ---
 
-This is totally a test
+## Hey
+
+Hope you've had a good day so far. If you're reading this, hopefully you have a passing interest in me, and want to know a little more about my life. Here we go.
+
+
+### Early Life
+
+When I was a kid, I was always into computers.

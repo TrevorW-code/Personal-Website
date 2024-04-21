@@ -5,14 +5,14 @@ module.exports = {
 	extend: {
 		colors: {
 			theme: {
-					1: '#FAF9F6',
-					2: '#FAF9F6',
-					3: '#FAF9F6',
-					4: '#FAF9F6',
-					5: '#2b2d2f',
-			}
-		}
+				1: '#FAF9F6',
+				2: '#FAF9F6',
+				3: '#FAF9F6',
+				4: '#FAF9F6',
+				5: '#2b2d2f',
+			},
+		},
 	},
-	plugins: [],
-	}
+	},
+	plugins: [require('@tailwindcss/typography')],
 }
