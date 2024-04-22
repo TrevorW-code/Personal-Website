@@ -1,11 +1,11 @@
 ---
 layout: 'layouts/post.njk'
-title: Hi!
+title: hi
 subtitle: A quick post about me
 tags: post
 ---
 
-## Hey
+## Hey!
 
 Hope you've had a good day so far. If you're reading this, hopefully you have a passing interest in me, and want to know a little more about my life. Here we go.
 
@@ -15,7 +15,5 @@ Hope you've had a good day so far. If you're reading this, hopefully you have a 
 When I was a kid, I was always into computers.
 
 ```python
-
 print('hello world')
-
 ```

@@ -1,12 +1,13 @@
 ---
 layout: 'layouts/base.njk'
-title: Writing | Trevor Ward
+title: Blog | Trevor Ward
 ---
 
-<h1 class="text-2xl lg:text-3xl">
+<h1 class="text-2xl text-center lg:text-3xl">
  Blog Posts 
 </h1>
 
+<ul>
 {% for post in collections.post | reverse %}
   <li class="mt-2">
     <a class="inline-block" href="{{ post.url }}">
@@ -17,3 +18,4 @@ title: Writing | Trevor Ward
     </a>
   </li>
 {% endfor %}
+</ul>
