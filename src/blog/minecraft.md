@@ -1,7 +1,7 @@
 ---
 layout: 'layouts/post.njk'
-title: hi
-subtitle: A quick post about me
+title: minecraft 
+subtitle: how it all started 
 tags: post
 ---
 
