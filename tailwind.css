@@ -6,7 +6,7 @@
 @layer base {
 
 	.link {
-		@apply font-bold underline underline-offset-2;
+		@apply font-bold decoration-indigo-800 underline underline-offset-2;
 	}
 
 	.link:hover {
