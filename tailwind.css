@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer base {
+
 	.link {
-		@apply underline underline-offset-2; 
+		@apply font-bold underline underline-offset-2;
+	}
+
+	.link:hover {
+		@apply decoration-indigo-500;
 	}
 }
