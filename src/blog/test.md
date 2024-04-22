@@ -13,3 +13,9 @@ Hope you've had a good day so far. If you're reading this, hopefully you have a 
 ### Early Life
 
 When I was a kid, I was always into computers.
+
+```python
+
+print('hello world')
+
+```
