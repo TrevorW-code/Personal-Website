@@ -10,5 +10,7 @@ Code for my website at <a href="trevorward.me">trevorward.me</a>
 
 ### Upcoming Articles
 
+- leetcode, good and bad
 - parquet files
+- python being a great horrible language
 - startup, my journey
