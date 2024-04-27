@@ -5,6 +5,21 @@
 
 @layer base {
 
+    .image-container {
+		position: relative;
+		overflow: hidden;
+	}
+
+	.image-container img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	
+    .clip-path {
+		clip-path: url(#clip);
+	}
+
 	.link {
 		@apply font-bold decoration-indigo-800 underline underline-offset-2;
 	}
