@@ -1,7 +1,14 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+// Function to format date
+function formatDate(value, format) {
+    const date = new Date(value);
+    return new Intl.DateTimeFormat("en-US", format).format(date);
+}
+
 module.exports = function (eleventyConfig) {
 
+    eleventyConfig.addFilter("formatDate", formatDate);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("src");

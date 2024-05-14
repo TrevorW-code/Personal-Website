@@ -1,22 +1,34 @@
 ---
 layout: 'layouts/post.njk'
 title: minecraft 
-subtitle: how I started building 
+subtitle: a love letter 
 tags: post
 ---
 
-### Who is Trevor?
+## The Game
 
-Welcome to my first post! To be honest, I'm not really sure where to start with this kind of thing. I've been wanting to do this forever but just now decided to actually get a static site up and running. Let's see if I have anything cool to say.
+Minecraft is an incredible game.
 
-#### Some Background
+A world built from blocks, no part of the experience is off limits. Want to build a house floating in the sky? Sure. Create an automatic farm? Do it! Fly with a **flying machine**!?! No problem. Minecraft, to this day, has perfected open-world sandbox gameplay in a way that hadn't been done before. No wonder it is [still one of the most popular games](https://en.wikipedia.org/wiki/List_of_best-selling_video_games) after nearly 15 years.
 
-Out of all of my friends, I was the worst at pvp in minecraft. 
+Even with all of this flexibility and creativity, it took some time for me to discover it. My friends and I would pop on a server, spend a few days gathering materials, and the slashing each other to pieces would begin. This was really fun, but I was terrible at combat. I would constantly die, and each time my friends and I played, they got better and better. It was getting old quickly.
 
-My friends and I would jump on a server, spend a few days gathering materials, and then start slashing each other to pieces. This was a really fun, but also incredibly frustrating time for me. I would constantly loose, and I couldn't seem to get better at all. It was almost out of neccesity that I discovered **redstone**, and arguably, started programming.
+For a change of pace, I tried designing cool bases. I liked the idea of being the designer, but in practice I was quite bad. While I'm much better now, at the time I didn't care what my creations looked like. I just wanted it to be functional, better than the bases next to us. 
 
-That's what this post is about. Honestly, I'm convinced my developer journey started with minecraft. I remember learning about all of the ways I could use redstone, and becoming totally fascinated with these silly contraptions.
+### Redstone
 
-As a kid, I was always interested in *building*. It didn't matter if it was pillow forts or legos; building things has always seemed to be a small passion for me. 
+Then, I discovered it. **Redstone**. My thirteen year old head exploded 🤯. 
 
-I still try to approach some of the problems I see today with that same wide-eyed enthusiasm I had as a teen. Some of the things I build were really stupid, and some I look back at and still can't manage to figure out how I did it. I hope you take your curiousity with you too.
+Most of my ideas were pretty useless, but even so, I would spend hours thinking of, designing, and creating these little contraptions. I made elevators, armor equipers, automatic farms, and so much more. 
+
+Suddenly, my friends and I were dominating on these servers. We would still die frequently, but the small handful of things I built that *were actually useful* ended up making us much more efficient, helping us get to the battlefield faster. It was then that I discovered my love for building, something which I am very grateful I get to do today.
+
+### Today
+
+Many great engineers have their roots in games. The ability to create & explore worlds full of rich storytelling, awe-inspiring visuals, and addicting mechanics; it's the stuff of dreams. 
+
+At 24, I can confidently say that the "redstone" of my life now is programming.
+
+It's the [handful](https://github.com/TrevorW-code) of things that are useful that make it all worthwhile.
+
+I still try to approach some of the problems I see today with that same wide-eyed enthusiasm I had as a teen. 

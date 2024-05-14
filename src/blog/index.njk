@@ -9,12 +9,15 @@ title: Blog | Trevor Ward
 
 <ul class='mt-6'>
 {% for post in collections.post | reverse %}
-  <li class="mt-2">
-    <a class="inline-block" href="{{ post.url }}">
-      <p>
+  <li class="py-3 px-3 rounded shadow-lg mt-2 bg-indigo-900">
+    <a href="{{ post.url }}">
+      <p class="flex flex-row gap-10 items-center">
         <span class="text-xl link">{{ post.data.title }}</span>
+	<span class="text-xs text-gray-200 italic">{{ post.date | formatDate("long") }}</span>
       </p>
-      <p class="text-lg text-gray-200">{{ post.data.subtitle }}</p>
+      <div>
+	      <p class="text-lg text-gray-200">{{ post.data.subtitle }}</p>
+      </div>
     </a>
   </li>
 {% endfor %}
