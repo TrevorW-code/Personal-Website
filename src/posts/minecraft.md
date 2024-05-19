@@ -3,6 +3,7 @@ layout: 'layouts/post.njk'
 title: minecraft 
 subtitle: a love letter 
 tags: post
+type: blog
 ---
 
 ## The Game

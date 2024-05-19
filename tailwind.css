@@ -5,6 +5,15 @@
 
 @layer base {
 
+	.glow {
+		opacity: 0;
+		transition: opacity 0.3s ease; /* Add transition for smooth reveal */
+	}
+	
+	.post:hover .glow {
+		opacity: 1;
+	}
+
     .image-container {
 		position: relative;
 		overflow: hidden;
