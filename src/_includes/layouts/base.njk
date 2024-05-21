@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="/css/style.css"><link>
 </head>
 <body class="min-h-screen bg-theme-5 flex flex-col">
+
     {% include 'partials/_header.html' %}
     <main class='font-sans text-theme-1 md:mx-auto max-w-screen-md py-6 px-10'>
     {{ content | safe }}
     </main>
     {% include 'partials/_footer.html' %}
+
 </body>
 </html>
