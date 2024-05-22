@@ -8,11 +8,7 @@ type: blog
 
 ## The Game
 
-Minecraft is an incredible game.
-
-A world built from blocks, no part of the experience is off limits. Want to build a house floating in the sky? Sure. Create an automatic farm? Do it! Fly with a **flying machine**!?! No problem. Minecraft, to this day, has perfected open-world sandbox gameplay in a way that hadn't been done before. No wonder it is [still one of the most popular games](https://en.wikipedia.org/wiki/List_of_best-selling_video_games) after nearly 15 years.
-
-Even with all of this flexibility and creativity, it took some time for me to discover it. My friends and I would pop on a server, spend a few days gathering materials, and the slashing each other to pieces would begin. This was really fun, but I was terrible at combat. I would constantly die, and each time my friends and I played, they got better and better. It was getting old quickly.
+Minecraft is an incredible game. Even with all of this flexibility and creativity, it took some time for me to discover it. My friends and I would pop on a server, spend a few days gathering materials, and the slashing each other to pieces would begin. This was really fun, but I was terrible at combat. I would constantly die, and each time my friends and I played, they got better and better. It was getting old quickly.
 
 For a change of pace, I tried designing cool bases. I liked the idea of being the designer, but in practice I was quite bad. While I'm much better now, at the time I didn't care what my creations looked like. I just wanted it to be functional, better than the bases next to us. 
 
