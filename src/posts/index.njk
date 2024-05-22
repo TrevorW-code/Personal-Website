@@ -9,7 +9,7 @@ title: Posts | Trevor Ward
 
 <ul class='mt-6'>
 {% for post in collections.post | reverse %}
-  <li class="post py-3 px-3 rounded mt-2 shadow-xl bg-[#2d2d58] relative">
+  <li class="md:highlight post py-3 px-3 rounded mt-2 shadow-xl bg-[#2d2d58] relative">
     <a href="{{ post.url }}">
       <p class="flex flex-row justify-between md:gap-12 items-center">
         <span class="text-xl font-bold">{{ post.data.title }}</span>
