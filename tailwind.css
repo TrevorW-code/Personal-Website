@@ -8,7 +8,7 @@
 	.glow {
 		opacity: 0;
 		transition: opacity 0.3s ease;
-		@apply p-2 absolute -z-10 -inset-0 bg-gradient-to-r from-purple-600 to-pink-600 blur-[20px]
+		@apply p-2 absolute -z-10 -inset-0 bg-gradient-to-r from-theme-2 to-theme-1 blur-[20px]
 	}
 
 	.highlight::after {
@@ -21,7 +21,7 @@
 		transition: opacity .3s ease;
 		opacity: 0;
 		z-index: 0; /* Ensure it doesn't interfere with internal elements */
-		@apply bg-gradient-to-r from-purple-700 to-pink-700 rounded
+		@apply bg-gradient-to-r from-theme-2 to-theme-1 rounded
 	}
 	
 	.highlight > * {
@@ -53,7 +53,7 @@
 	}
 
 	.link {
-		@apply font-bold decoration-indigo-800 underline underline-offset-2 opacity-100;
+		@apply font-bold decoration-theme-2 underline underline-offset-2 opacity-100;
 	}
 
 	.cblur {
@@ -61,6 +61,6 @@
 	}
 
 	.link:hover {
-		@apply decoration-indigo-500;
+		@apply decoration-theme-1;
 	}
 }

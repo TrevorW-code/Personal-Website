@@ -1,4 +1,5 @@
 // https://codepen.io/swillis/pen/RwzpbP
+const colors = require('tailwindcss/colors')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -7,11 +8,11 @@ module.exports = {
 		extend: {
 			colors: {
 				theme: {
-					1: '#FAF9F6', // highlight
-					2: '#FAF9F6',
-					3: '#FAF9F6',
-					4: '#FAF9F6',
-					5: '#2b2d2f', // base dark
+					1: '#E59F71', // highlight
+					2: '#BA5A31', // lighter
+					3: '#c2b2a3', // text
+					4: '#4b3d32', // second dark
+					5: '#262626', // base dark
 				},
 			},
 		},
