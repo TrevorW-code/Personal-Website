@@ -35,7 +35,7 @@
 	}
 	
 	.post:hover .glow {
-		opacity: 1;
+		opacity: .65;
 	}
 
     .image-container {
@@ -54,7 +54,7 @@
 	}
 
 	.link {
-		@apply text-theme-3 font-bold decoration-theme-2 underline underline-offset-2 opacity-100;
+		@apply font-bold decoration-theme-2 underline underline-offset-2 opacity-100;
 	}
 
 	.cblur {
