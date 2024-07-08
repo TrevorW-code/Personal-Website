@@ -1,4 +1,6 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const anchor = require("markdown-it-anchor");
+const md = require("markdown-it")();
 
 // Function to format date
 function formatDate(value, format) {
@@ -8,6 +10,24 @@ function formatDate(value, format) {
 
 module.exports = function (eleventyConfig) {
 
+    // const permalinkOptsTwo = {
+    //     style: 'visually-hidden',
+    //     assistiveText: title => `Permalink to “${title}”`,
+    //     visuallyHiddenClass: 'visually-hidden',
+    //     wrapper: ['<div class="wrapper">', '</div>']
+    // }
+
+    permalinkOpts = {
+        safariReaderFix: true,
+        symbol: "$"
+    }
+
+
+    const markdownLib = md.use(anchor, {
+        permalink: anchor.permalink.headerLink()
+    })
+    
+    eleventyConfig.setLibrary("md", markdownLib)
     eleventyConfig.addFilter("formatDate", formatDate);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPassthroughCopy("assets");
