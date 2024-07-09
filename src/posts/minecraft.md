@@ -4,6 +4,7 @@ title: minecraft
 subtitle: a love letter 
 tags: post
 type: blog
+date: 2024-05-14
 ---
 
 ## The Game
