@@ -5,6 +5,24 @@
 
 @layer base {
 
+	/* ripped from https://github.com/valeriangalliat/blog/blob/8e0fd52d2206895013ab89dc36b8ee3666588559/css/components/anchor.css */
+	.header-anchor {
+		margin-left: -1.5ch;
+		padding-left: 1.5ch;
+		text-decoration: none !important; 
+	}
+	
+	.header-anchor:focus::before,
+	.header-anchor:hover::before {
+		content: '#';
+		position: relative;
+		float: left;
+		left: -1.5ch;
+		width: 0;
+		height: 0;
+		@apply text-indigo-500
+	}
+
 	.glow {
 		opacity: 0;
 		transition: opacity 0.3s ease;

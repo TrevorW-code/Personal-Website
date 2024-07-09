@@ -10,21 +10,21 @@ function formatDate(value, format) {
 
 module.exports = function (eleventyConfig) {
 
-    // const permalinkOptsTwo = {
-    //     style: 'visually-hidden',
-    //     assistiveText: title => `Permalink to “${title}”`,
-    //     visuallyHiddenClass: 'visually-hidden',
-    //     wrapper: ['<div class="wrapper">', '</div>']
-    // }
+    const permalinkOptsTwo = {
+        style: 'visually-hidden',
+        symbol: "$",
+        assistiveText: title => `Permalink to “${title}”`,
+        visuallyHiddenClass: 'visually-hidden',
+        wrapper: ['<div class="wrapper">', '</div>']
+    }
 
     permalinkOpts = {
-        safariReaderFix: true,
-        symbol: "$"
+        safariReaderFix: true
     }
 
 
     const markdownLib = md.use(anchor, {
-        permalink: anchor.permalink.headerLink()
+        permalink: anchor.permalink.headerLink(permalinkOptsTwo)
     })
     
     eleventyConfig.setLibrary("md", markdownLib)
