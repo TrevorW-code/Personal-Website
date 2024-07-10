@@ -4,6 +4,7 @@ title: nepal 🇳🇵
 subtitle: tales from my trip
 tags: post
 type: blog
+date: 2024-07-03
 ---
 
 For most of my life, I had never stepped foot outside of the US. Asia seemed like a lofty dream, something that I'd brag I would always do “someday”.
