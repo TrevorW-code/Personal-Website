@@ -4,9 +4,12 @@
   "description": "Trevor Ward's Portfolio Website",
   "main": "index.js",
   "scripts": {
-    "serve": "npx eleventy --serve",
+    "html:serve": "npx eleventy --serve",
+    "html:build": "npx eleventy",
     "css:watch": "npx tailwindcss -i ./tailwind.css -o ./_site/css/style.css --watch",
-    "dev": "npm-run-all --parallel serve css:watch"
+    "css:build": "npx tailwindcss -i ./tailwind.css -o ./_site/css/style.css",
+    "dev": "npm-run-all --parallel html:serve css:watch",
+    "build": "run-s html:build css:build"
   },
   "keywords": [],
   "author": "Trevor Ward",
