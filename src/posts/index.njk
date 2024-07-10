@@ -9,13 +9,13 @@ title: Posts | Trevor Ward
 
 <ul class='mt-6'>
 {% for post in collections.post | reverse %}
-  <li class="md:highlight post py-3 px-3 rounded mt-2 shadow-xl bg-gray-700 relative">
+  <li class="post md:highlight shadow-xl rounded bg-gray-700 relative">
     <a href="{{ post.url }}">
-      <p class="flex flex-row justify-between md:gap-12 items-center">
+      <div class="py-3 px-3 mt-2">
+      <p class="flex flex-row justify-between md:gap-12 ">
         <span class="text-xl font-bold">{{ post.data.title }}</span>
 	      <span class="text-xs text-gray-200 italic opacity-75">{{ post.date | formatDate("long") }}</span>
       </p>
-      <div>
 	      <p class="flex flex-row justify-between md:gap-12 items-center">
           <span class='text-lg text-gray-200 opacity-50'>{{ post.data.subtitle }}</span>
           <span class='text-xs text-gray-200 opacity-25 capitalize'>{{ post.data.type }}</span>
