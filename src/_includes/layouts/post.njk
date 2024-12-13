@@ -3,15 +3,14 @@ layout: 'layouts/base.njk'
 ---
 
 <a href="/posts">
-  &#8592; <span>..</span>
+  <span class='text-theme-3'>&#8592; ..</span>
 </a>
 
-<h1 class='font-serif capitalize my-5 text-theme-2 text-5xl'>{{ title }}</h1>
+<h1 class='font-serif capitalize my-5 text-theme-3 text-5xl'>{{ title }}</h1>
 <h2 class='font-serif capitalize my-5 text-theme-3 text-3xl'>{{ subtitle }}</h2>
-
 <hr>
 
-<article class='py-5 prose prose-invert prose-p:text-[#c6c6c4] lg:prose-xl text-theme-1 prose-a:link'>
+<article class='py-5 prose prose-invert prose-h2:text-theme-1 prose-h3:text-theme-1 prose-p:text-theme-3 lg:prose-xl prose-a:link'>
 {{ content | safe }}
 </article>
 
@@ -19,8 +18,8 @@ layout: 'layouts/base.njk'
 
 <div class='font-serif text-[#c6c6c4]'>
 
-<h4 class='mt-5 text-theme-3 text-xl lg:text-2xl'>Psst! 👋</h4> 
+<h4 class='mt-5 text-theme-[#FFFFFF] text-xl lg:text-2xl'>Psst! 👋</h4> 
 
-<p class='mt-5 text-theme-3 text-md lg:text-xl'>Thanks for reading my post. I write about engineering, machine learning, and sometimes life. If you want to hear more about me and my story, click <a href='/' class='link opacity-100'>here</a>.</p>
+<p class='mt-5 text-theme-[#FFFFFF] text-md lg:text-xl'>Thanks for reading my post. I write about engineering, machine learning, and sometimes random topics. If you want to hear more about me and my story, click <a href='/' class='link opacity-100'>here</a>.</p>
 
 </div>

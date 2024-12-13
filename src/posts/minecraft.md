@@ -15,7 +15,7 @@ For a change of pace, I tried designing cool bases. I liked the idea of being th
 
 ### Redstone
 
-Then, I discovered it. **Redstone**. My thirteen year old head exploded 🤯. 
+Then, I discovered it. Redstone. My thirteen year old head exploded 🤯. 
 
 Most of my ideas were pretty useless, but even so, I would spend hours thinking of, designing, and creating these little contraptions. I made elevators, armor equipers, automatic farms, and so much more. 
 
