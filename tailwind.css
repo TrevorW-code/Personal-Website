@@ -20,7 +20,7 @@
 		left: -1.5ch;
 		width: 0;
 		height: 0;
-		@apply text-indigo-500
+		@apply text-theme-1
 	}
 
 	.glow {
