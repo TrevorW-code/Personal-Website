@@ -1,6 +1,6 @@
 # Personal-Website
 
-Code for my website at <a href="trevorward.me">trevorward.me</a>
+Code for my website at <a href="https://trevorward.me/">trevorward.me</a>
 
 ### Running Dev 
 
